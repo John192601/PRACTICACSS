@@ -66,3 +66,13 @@ header {
     font-size: 0.9rem;
     font-weight: lighter;
   }
+  .product-price-block .price {
+    font-size: 22px;
+    font-weight: 700;
+    flex: 1;
+  }
+  .product-price-block .discount {
+    font-size: 12px;
+    font-weight: 700;
+    color: #428f13;
+  }
