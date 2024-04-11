@@ -13,6 +13,20 @@
   }
   .social{
     display: none;
+    
+  }
+  .product-images-block, .product-description-block, .product-checkout-block {
+    flex: 1;
+  }
+  .flex-columns{
+    display: flex;
+    flex-direction: row;
+    margin: 0 13%;
+    padding: 1.5%;
+  }
+  .product-container a{
+    text-decoration: none;
+    color:inherit;
   }
   .product-container{
     display: grid;
@@ -185,8 +199,12 @@ section#hero {
   }
   .nav ul li a:hover {
     text-decoration: underline;
+    transform: scale(1.1);
   }
-  
+  .nav ul li:hover {
+    
+    transform: scale(1.1);
+  }
   
   footer {
    
@@ -204,6 +222,7 @@ section#hero {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
   }
   .columns-container .col ul {
     list-style-type: none;
@@ -283,7 +302,67 @@ section#hero {
 
   @media screen and (min-width: 1024px)  {
     /* Rules for screen width between 769px and 1200px (laptops) */
-    body{
-    background-color: red;
+   
+  .social{
+    display: inline-block;
+  }
+  form{
+    min-width: 500px;
+  }
+  .search{
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 35px;
+  }
+  .nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 5px;
+    padding: 30 0 px;
+    align-items: center;
+    flex-direction: row;
+    gap: 4px;
+
+  }
+  .nav ul li a {
+    color: white;
+    font-weight: 700;
+    text-align: left;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  header {
+    
+    height: 195px;
+    width:100%;
+  }
+  .title-container span {
+    display: block;
+    color: white;
+    font-weight: 700;
+  }
+  .title-container span:first-child {
+    font-size: 3rem;
+  }
+  .title-container span:last-child {
+    font-size: 7rem;
+    line-height: 80px;
+  }
+  form{
+    padding-right: 20%;
+  }
+  .product-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2%;
+    justify-items: center;
+    margin: 0 2%;
+  }
+  .product-card{
+    width: 100%;
+  }
+  .logo>img{
+    transform: scale(1.2);
   }
   }
