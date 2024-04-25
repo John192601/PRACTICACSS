@@ -24,6 +24,10 @@
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+.product-img:hover{
+  transform: scale(1.2);
+  transition: 0.5s;
+}
 .product-info {
   padding: 20px;
   box-sizing: border-box;
