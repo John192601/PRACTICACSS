@@ -99,7 +99,7 @@ let prod4 = new Product(4,"Laptop 16pulgadas ",1380,1,"https://i.postimg.cc/Jn2C
 let prod5 = new Product(5,"Tablet ",700,12,"./random.jpg",false,"50%",["red","black","blue","white"]);
 
 const products = [prod1,prod2,prod3,prod4,prod5];
-
+//caca "element" itera con los elementos del array product, heredando sus atributos
 products.forEach(element => {
     console.log(element);
 
@@ -125,4 +125,5 @@ products.forEach(element => {
   `
   templateProduct = templateProduct + element;    
 });
+//la plantilla se agrega al contenedor 
 productContainer.innerHTML = templateProduct;
