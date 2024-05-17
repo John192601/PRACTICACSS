@@ -30,6 +30,9 @@
   height: 40px;
   object-fit: cover;
 }
+.mini-img:hover{
+  cursor:pointer;
+}
 .big-img {
   width: 280px;
   height: 280px;

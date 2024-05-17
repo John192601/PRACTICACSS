@@ -1,0 +1,10 @@
+{
+    "products":[
+    {"id":1,"title":"celular","price":"350","stock":3,"images":"https://i.postimg.cc/Jn2C5W84/galaxy1.webp","onsale":true,"discount":"15%","color":["blue"]},
+    {"id":2,"title":"TV 50 pulgadas","price":1500,"stock":10,"images":"https://www.efe.com.pe/media/catalog/product/h/y/hyled5015a4km_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700","onsale":false,"discount":"10%","color":["blue"]},
+    {"id":3,"title":"Laptop 14pulgadas ","price":1280,"stock":1,"images":"https://d598hd2wips7r.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/8/W/8W6D3LA-1_T1699892564.png","onsale":true,"discount":"10%","color":["blue"]},
+    {"id":4,"title":"Laptop 16pulgadas ","price":1380,"stock":1,"images":"https://i.postimg.cc/Jn2C5W84/galaxy1.webp","onsale":false,"discount":"0.5%","color":["red","black","blue"]},
+    {"id":5,"title":"Tablet ","price":700,"stock":12,"images":"https://i.postimg.cc/Jn2C5W84/galaxy1.webp","onsale":false,"discount":"50%","color":["red","black","blue","white"]},
+    {"id":6,"title":"PC Gamer","price":1700,"stock":2,"images":"https://w7.pngwing.com/pngs/758/250/png-transparent-megaport-pc-gamer-amd-fx-6100-gaming-computer-desktop-computers-computer-cases-housings-computer-electronics-computer-laptop-thumbnail.png","onsale":true,"discount":"20%","color":["blue","Gris"]}
+]
+}

@@ -41,7 +41,7 @@
               />
             </a>
           </li>
-          <li id="cart" class="header-li">
+          <li id="cart " count="0" class="header-li">
             <a class="header-a" href="./cart.html">
               <img
                 class="header-social-img"
@@ -49,10 +49,19 @@
               />
             </a>
           </li>
+          <li id="favorites-icon" class="header-li">
+            <a class="header-a" href="./favoritos.html">
+              <img
+                class="header-social-img"
+                src="/assets/favorites.jpg"
+              />
+            </a>
+          </li>
         </ul>
       </div>
+      <!-- aqui empieza la barra de navegacion -->
       <nav id="navbar">
-        <li class="nav-li">
+       <!--  <li class="nav-li">
           <a class="nav-a" href="#">Ofertas</a>
         </li>
         <li class="nav-li">
@@ -66,16 +75,57 @@
         </li>
         <li class="nav-li">
           <a class="nav-a" href="#">Garantía</a>
-        </li>
+        </li> -->
       </nav>
     </header>
+
     <section class="hero-section">
       <article class="hero-title">
         <span class="hero-span">mi</span>
         <span class="hero-span">carrito</span>
       </article>
     </section>
-    <main></main>
+    <!-- aqui empiza el main -->
+    <main>
+      <div class="cart-section">
+        <article id="cartproducts">
+          <!-- <div class="product-cart">
+            
+              <img
+                class="product-img"
+                src="https://i.postimg.cc/HxGQcrcp/mock1.jpg"
+                alt="producto"
+              />
+            
+            <div class="product-details">
+              <h2 class="product-name">MacBook Pro 13'</h2>
+              <p class="product-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi adipisci alias eos quae perferendis quo reiciendis
+                culpa deleniti eum sequi quos enim magnam modi et, sint rerum
+                similique eveniet tempore!
+              </p>
+              <span class="product-price">PEN S/ 2500.00</span>
+                <input class="product-input" type="number" placeholder="1" value="1" />
+              
+            </div>
+
+           
+          </div> -->
+        </article>
+        <article id="total">
+          <!-- <div class="cart-resume">
+            <div class="cart-data">
+              <span class="cart-title">Resumen del pedido</span>
+              <div class="cart-total"><span>Total</span> <span>PEN S/ 2500.00</span></div>
+              <span class="cart-tax">Precio incluye impuestos y envio</span>
+              <button class="cart-btn" type="submit">Comprar</button>
+
+          </div> -->
+        </article>
+      </div>
+    </main>
+    <!-- aqui empieza el footer -->
     <footer>
       <div id="footer" class="footer-container">
         <ul class="footer-ul">
@@ -136,5 +186,12 @@
       </div>
       <div class="footer-copyright">Curso de HTML + CSS 2023</div>
     </footer>
+   
+    <script src="/scripts/layout.js"></script>
+    <!-- <script src="/scripts/favorites.js"></script> -->
+    <script src="/scripts/cart.js"></script>
+    <script src="/scripts/buy.js"></script>
+    <script src="/scripts/products.js"></script>
+    
   </body>
 </html>
